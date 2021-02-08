@@ -4003,9 +4003,7 @@ input, select, textarea {
 		#footer input[type="button"],
 		#footer button,
 		#footer .button {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #717981;
-			color: #717981 !important;
+			color: black !important;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -4036,7 +4034,7 @@ input, select, textarea {
 				}
 
 		#footer label {
-			color: #717981;
+			color: black;
 		}
 
 		#footer input[type="text"],
@@ -4288,8 +4286,10 @@ input, select, textarea {
 
 		#footer form label,
 		#footer h3,
-		#footer p {
+		#footer p,
+		#footer a {
 			font-size: 0.8rem;
+			color: black;
 		}
 
 		@media screen and (max-width: 980px) {
